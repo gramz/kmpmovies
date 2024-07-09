@@ -6,7 +6,7 @@ import coil3.annotation.ExperimentalCoilApi
 import coil3.compose.setSingletonImageLoaderFactory
 import coil3.request.crossfade
 import coil3.util.DebugLogger
-import io.movies.project.ui.screens.home.HomeScreen
+import io.movies.project.ui.screens.home.Navigation
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @OptIn(ExperimentalCoilApi::class)
@@ -19,6 +19,7 @@ fun App() {
             .logger(DebugLogger())
             .build()
     }
-    HomeScreen()
+    Navigation()
 }
+
 
